@@ -46,7 +46,7 @@ export default function Portofoilo() {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src={require("../assets/img/gpt.png")} className="img-fluid" alt=""/>
+              <img src={require("../assets/img/admin.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
                 <a  href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
               </div>
@@ -55,7 +55,7 @@ export default function Portofoilo() {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
-              <img src={require("../assets/img/res.png")} className="img-fluid" alt=""/>
+              <img src={require("../assets/img/mutishop.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
                 <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
               </div>

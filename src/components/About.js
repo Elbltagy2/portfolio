@@ -7,8 +7,10 @@ export default function About() {
 
         <div className="section-title">
           <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+           <p>
+           As a software engineer, I am passionate about developing innovative solutions to solve complex problems. With years of experience in custom software development, web and mobile app development, database management, cloud-based solutions, DevOps, and software consultancy, I offer a comprehensive range of services to meet clients' technology needs. My commitment to delivering high-quality and efficient software solutions, along with ongoing maintenance and support, ensures that clients receive the best possible service.
+
+                    </p>        </div>
 
         <div className="row">
           <div className="col-lg-4">
@@ -17,8 +19,7 @@ export default function About() {
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Our UI/UX Designer & Web Developer portfolio showcases our expertise in creating visually stunning and user-friendly web designs that meet clients' unique needs.
             </p>
             <div className="row">
               <div className="col-lg-6">
@@ -32,7 +33,7 @@ export default function About() {
               <div className="col-lg-6">
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ahmedelbltayg125@gmail.com</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
