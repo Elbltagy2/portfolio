@@ -1,31 +1,37 @@
 import './App.css';
 import Header from './components/header';
+import { useEffect } from 'react';
 import "./assets/css/style.css"
-import Main from './components/main';
-import About from './components/About';
-import Facts from './components/Facts';
-import Skills from './components/Skills';
-import Portofoilo from './components/Portofoilo';
-import Services from './components/Services';
-import Contact from './components/Contact';
+import Projectdetails from './components/Projectdetails';
+import { Projectscontent } from './Projectscontent'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+
+import Home from './components/Home';
 
 function App() {
+  useEffect(()=>{
+    console.log(Projectscontent);
+    
+ },[]);
   
     
   return (
-    <div className="App">
-      <Header/>
-      <Main/>
-      <main id="main">
-        <About/>
-        <Facts/>
-        <Skills/>
-        <Portofoilo/>
-        <Services/>
-        <Contact/>
-      </main>
-    </div>
+    < >
+    <BrowserRouter>
+      <Header/>    
+   <Routes>
+     <Route exact path="/" element={<Home/>}  />
+     <Route path="/projectdetalis/:Name" element={ <Projectdetails />}  />
+   </Routes>
+ 
+    
+     
+     
+
+      </BrowserRouter>
+
+    </>
   );
 }
 

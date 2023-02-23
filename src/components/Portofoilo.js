@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Portofoilo() {
   return (
     <section id="portfolio" className="portfolio section-bg">
@@ -17,7 +17,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/gpt.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <a  href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+              <Link to="/projectdetalis/gpt" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/res.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/e-learning.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/admin.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <a  href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/mutishop.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
