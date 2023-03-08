@@ -5,7 +5,7 @@ import "./assets/css/style.css"
 import Projectdetails from './components/Projectdetails';
 import { Projectscontent } from './Projectscontent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import NotFound from './components/NotFound';
 
 import Home from './components/Home';
 
@@ -23,6 +23,7 @@ function App() {
    <Routes>
      <Route exact path="/" element={<Home/>}  />
      <Route path="/projectdetalis/:Name" element={ <Projectdetails />}  />
+     <Route path="*" element={<NotFound />} />
    </Routes>
  
     
