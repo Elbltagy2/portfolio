@@ -5,7 +5,7 @@ import "./assets/css/style.css"
 import Projectdetails from './components/Projectdetails';
 import { Projectscontent } from './Projectscontent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NotFound from './components/NotFound';
+import NotFound from './components/PageNotFound';
 
 import Home from './components/Home';
 
@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Header/>    
    <Routes>
-     <Route exact path="*" element={<Home/>}  />
+     <Route exact path="/" element={<Home/>}  />
      <Route path="/projectdetalis/:Name" element={ <Projectdetails />}  />
    </Routes>
  
