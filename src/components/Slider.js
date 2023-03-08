@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import {slider,EffectFade} from "swiper"
 
-export default ({photo}) => {
+export default ({photo,path}) => {
   return (
     <Swiper className=' slider'
       // install Swiper modules
@@ -20,12 +20,15 @@ export default ({photo}) => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide><img src={require(`../assets/img/${photo[0]}`)}/></SwiperSlide>
-      <SwiperSlide><img src={require(`../assets/img/${photo[1]}`)}/></SwiperSlide>
-      <SwiperSlide><img src={require(`../assets/img/${photo[2]}`)}/></SwiperSlide>
+    {
+      photo.map(item=>
+        
+        <SwiperSlide key={item}><img src={require(`../assets/img/${path}/${item}.png`)}/></SwiperSlide>
+
+      )
+    }
+      
       ...
     </Swiper>
   );

@@ -37,7 +37,7 @@ const Projectdetails = (props) => {
         <div className="row gy-4  ">
 
           <div className=" col-lg-6">
-           <Slider photo={slected[0].photos}/>
+           <Slider photo={slected[0].photos} path={name}/>
           </div>
 
           <div className="col-lg-6">
@@ -46,7 +46,7 @@ const Projectdetails = (props) => {
               <ul>
                 <li><strong>Category</strong>: Web design</li>
                 <li><strong>Project date</strong>: {slected[0].date}</li>
-                <li><strong>Project URL</strong>: <a href="#">{slected[0].url}</a></li>
+                <li><strong>Project URL</strong>: <a target={"_blank"} href={slected[0].url}>{slected[0].url}</a></li>
               </ul>
             </div>
             <div className="portfolio-description">

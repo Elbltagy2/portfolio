@@ -21,21 +21,22 @@ export default function Portofoilo() {
               </div>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src={require("../assets/img/res.png")} className="img-fluid" alt=""/>
+              <img src={require("../assets/img/haircut.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
+              <Link to="/projectdetalis/Haricut" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
+
+          
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img src={require("../assets/img/e-learning.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
+              <Link to="/projectdetalis/e-learning" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -48,7 +49,7 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/admin.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
+              <Link to="/projectdetalis/admin" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
@@ -57,19 +58,12 @@ export default function Portofoilo() {
             <div className="portfolio-wrap">
               <img src={require("../assets/img/mutishop.png")} className="img-fluid" alt=""/>
               <div className="portfolio-links">
-              <Link to="/projectdetalis" > <i className="bx bx-link"></i></Link>
+              <Link to="/projectdetalis/e-commerce" > <i className="bx bx-link"></i></Link>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={require("../assets/img/e-learning.png")} className="img-fluid" alt=""/>
-              <div className="portfolio-links">
-                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
+         
 
         </div>
 

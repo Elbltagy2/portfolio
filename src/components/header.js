@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   const [active,setactive]=useState(0);
@@ -9,7 +10,7 @@ export default function Header() {
     <div className="d-flex flex-column">
 
       <div className="profile">
-        <img src={require("../assets/img/profile-img.jpg")} alt="" className="img-fluid rounded-circle"/>
+       <Link to="/" > <img src={require("../assets/img/profile-img.jpg")} alt="" className="img-fluid rounded-circle"/></Link>
         <h1 className="text-light"><a href="index.html">Ahmed Elbltagy</a></h1>
         <div className="social-links mt-3 text-center">
           <a target={"_blank"} href="https://www.facebook.com/ahmed.elbltagy.9849" className="facebook"><i className="bx bxl-facebook"></i></a>
