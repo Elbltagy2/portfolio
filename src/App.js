@@ -23,7 +23,6 @@ function App() {
    <Routes>
      <Route exact path="/" element={<Home/>}  />
      <Route path="/projectdetalis/:Name" element={ <Projectdetails />}  />
-     <Route path="*" element={<NotFound />} />
    </Routes>
  
     
