@@ -3,7 +3,6 @@ import '../assets/css/style.css'
 import Slider from './Slider'
 import './css.css'
 import { Projectscontent } from '../Projectscontent'
-import { Select } from '@mui/material'
 import { useParams } from 'react-router-dom';
 const Projectdetails = (props) => {
   const name = useParams().Name;
