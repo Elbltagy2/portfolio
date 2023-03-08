@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Header/>    
    <Routes>
-     <Route exact path="/" element={<Home/>}  />
+     <Route exact path="*" element={<Home/>}  />
      <Route path="/projectdetalis/:Name" element={ <Projectdetails />}  />
    </Routes>
  
