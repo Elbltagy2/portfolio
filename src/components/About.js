@@ -25,7 +25,6 @@ export default function About() {
               <div className="col-lg-6">
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>28 Dec 2000</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+201156008597</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Cairo, Egy</span></li>
                 </ul>
